@@ -1,6 +1,6 @@
 let counter = 0
 input.onGesture(Gesture.Shake, function () {
-    basic.showIcon(IconNames.Heart)
+    basic.showIcon(IconNames.Ghost)
     counter = randint(0, 100)
     while (counter >= 0) {
         basic.pause(200)
